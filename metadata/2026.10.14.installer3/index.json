@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "release_tag": "2026.10.14.installer3",
+  "files": {
+    "installer.json": "4a5099c63fdcfb6f9821c7c8e93d9e39695b1103a6228d8f3660983108886eb5",
+    "README.md": "fabc079596c20f8dfece25126e433891ed1d9eed1f547d6b86d6b32cb6bf72a3"
+  }
+}
