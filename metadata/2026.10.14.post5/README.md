@@ -1,0 +1,11 @@
+Fix incomplete model and dataset discovery in Studio and the Windows launcher.
+
+- Management shows the full declared catalog, including third-party sources and resources whose weights or adapters are not installed. The scientific task chooser still uses only available runtimes. Missing resources are never marked installed merely because a source URL exists.
+- The current directory records 38 distinct model/resource entries, including upstream initialization/encoder references and pending adapters. This count does not mean 38 runnable segmentation models. Studio also lists nine upstream dataset sources; the native catalog has ten task-specific dataset records because the perovskite source has separate phase and boundary targets.
+- Maintenance 0.2.8 merges the published resources1/resources2 component sources, preserving user-selected sources, keys and tags. Six already-published dataset packages remain available on demand. Catalog-only upstream entries show their source and setup status; unsupported installation actions stay disabled.
+- Studio restores the existing SAM/SAM2 installation entry points and carries the installer scripts inside its wheel, so a project source checkout is not required to locate those scripts. Other resources explicitly distinguish setup required, package not published and adapter pending.
+- The frontend was rebuilt for the catalog/status/link changes in this release. 本次为修复资源目录重新编译前端；此前版本复用构建产物的说明仍适用于此前版本。
+
+Includes three Python wheels plus the static frontend ZIP. Backend requirements pin grainbot-maintenance==0.2.8 and matmorph[analysis]==2026.10.14.post2. The existing MatMorph wheel is reused byte-for-byte. No new model weights, datasets or scientific algorithms are published by this correction.
+
+Validation: 20 focused backend/catalog/task checks passed; frontend type checks and production build passed; all four packages were installed in an isolated application directory using existing dependency libraries, with module origins, full authenticated catalog APIs, analysis availability, health and frontend assets verified. This round does not repeat large upstream model downloads or claim scientific acceptance. Native Windows EXE is published separately as installer3.
