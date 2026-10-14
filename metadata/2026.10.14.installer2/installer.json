@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "repository": "kzhoujlu/GrainBot-distribution",
+  "tag": "2026.10.14.installer2",
+  "kind": "windows_installer",
+  "platform": "Windows x64",
+  "application_release": "2026.10.14.post4",
+  "native_version": "0.2.7.2",
+  "maintenance_core": "0.2.7",
+  "online_installation": true,
+  "download_format": "single EXE",
+  "sidecar_download_required": false,
+  "user_supplied_icon": true,
+  "bottom_button_layout_fixed": true,
+  "asset": {
+    "name": "GrainBot-Setup-Windows-x64-2026.10.14.installer2.exe",
+    "bytes": 308224,
+    "sha256": "fa84ac92f796a796b3cb6f0037f72e2c987ac0444d3af8d44f25835876c7bdf8",
+    "download_url": "https://github.com/kzhoujlu/GrainBot-distribution/releases/download/2026.10.14.installer2/GrainBot-Setup-Windows-x64-2026.10.14.installer2.exe"
+  },
+  "availability": "单个EXE无配套配置文件的自检、启动中心ready状态、CLI退出码及实际PerMonitorV2均通过；只读含中文/空格的下载目录验证通过；最终EXE在100/125/150/175/200%布局缩放及默认/最小窗口共10项不重叠检查通过；安装器和启动中心截图已查看。此轮只更改原生界面和启动配置加载，应用与Python依赖沿用此前安装验收结果。",
+  "native_code_signed": false
+}
