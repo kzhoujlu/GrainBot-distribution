@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "repository": "kzhoujlu/GrainBot-distribution",
+  "tag": "2026.10.14.installer1",
+  "kind": "windows_installer",
+  "application_release": "2026.10.14.post4",
+  "maintenance_core": "0.2.7",
+  "online_installation": true,
+  "platform": "Windows x64",
+  "asset": {
+    "name": "GrainBot-Setup-Windows-x64-2026.10.14.installer1.zip",
+    "bytes": 90050,
+    "sha256": "92b41681a6cc65c299a538d8411c2a525188316fafcdd357fc9683761f447019",
+    "download_url": "https://github.com/kzhoujlu/GrainBot-distribution/releases/download/2026.10.14.installer1/GrainBot-Setup-Windows-x64-2026.10.14.installer1.zip"
+  },
+  "embedded_files": {
+    "GrainBot Setup.exe": "2e8f3be0b338f832ea17dd29116d9ff19599115b0169376c32177b61d071589d",
+    "GrainBot Setup.exe.config": "2ea4c99e3c0a2f7fa50d84dd67d47ee165fc3243a0e526b83724d9b29106442a"
+  },
+  "availability": "此前完整CPU安装已通过；本轮复用现有CPU依赖，通过最终原生EXE实际下载并安装post4、启动网站并正常退出。EMPS/ExONE两个数据下载源已配置并可读取。CUDA选项本轮未做GPU实机验收。",
+  "native_code_signed": false
+}
