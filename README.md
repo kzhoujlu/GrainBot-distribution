@@ -1,9 +1,9 @@
 # GrainBot-distribution
 
-<!-- grainbot-windows-installer-2026.10.14.installer1 -->
+<!-- grainbot-windows-installer-2026.10.14.installer2 -->
 ## Windows 安装器
 
-[下载 Windows x64 联网安装包](https://github.com/kzhoujlu/GrainBot-distribution/releases/download/2026.10.14.installer1/GrainBot-Setup-Windows-x64-2026.10.14.installer1.zip)。完整解压后双击 `GrainBot Setup.exe`，首次使用建议选择 CPU；安装器会安装 post4 前后端。[安装说明](https://github.com/kzhoujlu/GrainBot-distribution/releases/tag/2026.10.14.installer1)。
+[直接下载 Windows x64 安装器（单 EXE）](https://github.com/kzhoujlu/GrainBot-distribution/releases/download/2026.10.14.installer2/GrainBot-Setup-Windows-x64-2026.10.14.installer2.exe)。下载后双击运行，无需解压；首次使用建议选择 CPU。[安装说明](https://github.com/kzhoujlu/GrainBot-distribution/releases/tag/2026.10.14.installer2)。
 
 
 ## Resource updates
