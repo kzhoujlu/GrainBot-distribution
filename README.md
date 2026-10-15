@@ -2,11 +2,13 @@
 
 ## 安装与更新
 
-[Windows x64 单个 EXE 安装器](https://github.com/kzhoujlu/GrainBot-distribution/releases/download/2026.10.15.installer8/GrainBot-Setup-Windows-x64-2026.10.15.installer8.exe)
+[Windows x64 单个 EXE 安装器](https://github.com/kzhoujlu/GrainBot-distribution/releases/download/2026.10.15.installer9/GrainBot-Setup-Windows-x64-2026.10.15.installer9.exe)
 
 已有新版启动中心请在“版本与更新”检查应用及启动中心更新。首次安装建议 CPU；旧 installer4 首次升级需关闭旧启动中心和网站服务，运行本 EXE 并选择原目录、原 CPU/CUDA 配置。现有模型、数据、设置和未变化的依赖会保留。
 
-[Studio post9 应用四件套](https://github.com/kzhoujlu/GrainBot-distribution/releases/tag/2026.10.15.post9)：三个 wheel、一个前端 ZIP，维护核心 0.2.13。前端复用 post7/post8 构建，未重新编译；MatMorph post2 不变。
+[Studio post10 应用四件套](https://github.com/kzhoujlu/GrainBot-distribution/releases/tag/2026.10.15.post10)：三个 wheel、一个前端 ZIP，维护核心 0.2.14。前端已为菜单、登录页及浏览器图标重新编译；MatMorph post2 不变。
+
+本版统一高清完整图标，更新开始菜单与卸载图标，网页窄屏菜单保留图标。更新应用后重启网页服务；开始菜单图标随启动中心更新刷新。
 
 ## 推荐模型
 
@@ -18,7 +20,7 @@
 | 316L 光学金相晶界 | 316L RG DeepLabV3+ | resources6 |
 | SEM 孔洞 | SEM pore ASPP (instance-balanced) | resources5 |
 
-更新到 post9 并重启网页服务后，在模型库分别安装所需模型。模型推荐以适用图像和任务为依据，现有权重、阈值及后处理不变；未重新训练，也不因此获得跨材料精度承诺。
+更新到 post10 并重启网页服务后，在模型库分别安装所需模型。模型推荐以适用图像和任务为依据，现有权重、阈值及后处理不变；未重新训练，也不因此获得跨材料精度承诺。
 
 ## 发布资源
 
