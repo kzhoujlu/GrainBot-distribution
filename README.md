@@ -2,13 +2,13 @@
 
 ## 安装与更新
 
-[Windows x64 单个 EXE 安装器](https://github.com/kzhoujlu/GrainBot-distribution/releases/download/2026.10.15.installer10/GrainBot-Setup-Windows-x64-2026.10.15.installer10.exe)
+[Windows x64 单个 EXE 安装器](https://github.com/kzhoujlu/GrainBot-distribution/releases/download/2026.10.15.installer11/GrainBot-Setup-Windows-x64-2026.10.15.installer11.exe)
 
 已有新版启动中心请在“版本与更新”检查应用及启动中心更新。首次安装建议 CPU；旧 installer4 首次升级需关闭旧启动中心和网站服务，运行本 EXE 并选择原目录、原 CPU/CUDA 配置。现有模型、数据、设置和未变化的依赖会保留。
 
-[Studio post11 应用四件套](https://github.com/kzhoujlu/GrainBot-distribution/releases/tag/2026.10.15.post11)：三个 wheel、一个前端 ZIP，维护核心 0.2.15。前端已为模型库批量更新和来源显示重新编译；MatMorph post2 不变。
+[Studio post12 应用四件套](https://github.com/kzhoujlu/GrainBot-distribution/releases/tag/2026.10.15.post12)：三个 wheel、一个前端 ZIP，维护核心 0.2.16。前端原样复用 post11 ZIP，未重新编译；MatMorph post2 不变。
 
-网页模型库支持“检查更新”检查当前分类全部模型，并可多选批量更新。自研／官方来源已校正，模型权重下载与训练数据链接分开展示。更新应用及启动中心后重启网页服务。
+本版修复 YOLO 缺失依赖及 OpenCV 发行不匹配造成的安装／更新失败。已有安装先更新启动中心，再更新应用并重启服务。网页模型库支持“检查更新”检查当前分类全部模型，并可多选批量更新。自研／官方来源已校正，模型权重下载与训练数据链接分开展示。更新应用及启动中心后重启网页服务。
 
 ## 推荐模型
 
