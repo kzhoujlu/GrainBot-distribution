@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "tag": "2026.10.15.installer7",
+  "application": "2026.10.15.post8",
+  "maintenance": "0.2.12",
+  "version": "0.2.12.0",
+  "asset": "GrainBot-Setup-Windows-x64-2026.10.15.installer7.exe",
+  "bytes": 380928,
+  "sha256": "6e90177b3ec23538372b8416cb20073c1debcbdeecc173e2a878180fa8552964"
+}

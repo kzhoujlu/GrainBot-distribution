@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "release_tag": "2026.10.15.installer7",
+  "files": {
+    "installer.json": "b560b7bc91dd857cb336f9db2e41c6edbff14383ed53668603fe7dffafb562d7",
+    "README.md": "0aae0ed689ded494cd2a075d016fc99543c0d73c8e1e60c09709c145bbdebd8f"
+  }
+}
