@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "tag": "2026.10.15.installer4",
+  "application": "2026.10.14.post5",
+  "maintenance_control": "0.2.9",
+  "asset": "GrainBot-Setup-Windows-x64-2026.10.15.installer4.exe",
+  "bytes": 354816,
+  "sha256": "6a598fbc4f185faeb25beff6675baa7cb7d87c6e330286423aee19828ce32ecf",
+  "scope": "incremental installer only",
+  "application_assets_republished": false
+}
