@@ -2,9 +2,12 @@
 
 ## Windows 安装器
 
-[直接下载 Windows x64 安装器（单个 EXE）](https://github.com/kzhoujlu/GrainBot-distribution/releases/download/2026.10.14.installer3/GrainBot-Setup-Windows-x64-2026.10.14.installer3.exe)
+<!-- grainbot-incremental-installer4 -->
+新版安装器支持增量安装：完整且版本匹配的软件包会跳过，仅更新变化或缺失的部分。应用仍为 post5。
 
-下载后双击运行，无需解压或另配文件。首次使用建议选择 CPU。已有安装可选择原安装目录，以 CPU 配置重新安装 / 修复，更新维护工具和应用。[安装说明](https://github.com/kzhoujlu/GrainBot-distribution/releases/tag/2026.10.14.installer3)。
+[直接下载 Windows x64 安装器（单个 EXE）](https://github.com/kzhoujlu/GrainBot-distribution/releases/download/2026.10.15.installer4/GrainBot-Setup-Windows-x64-2026.10.15.installer4.exe)
+
+下载后双击运行，无需解压或另配文件。首次使用建议选择 CPU。已有安装请选择原安装目录及原来的 CPU/CUDA 配置运行安装，按需更新维护工具和应用。[安装说明](https://github.com/kzhoujlu/GrainBot-distribution/releases/tag/2026.10.15.installer4)。
 
 新版补齐第三方模型和数据集目录，并合并历次已发布来源。界面明确区分已安装、可下载、待配置、尚未发布和待接入；目录登记数量不等于可直接运行的模型数量。
 
