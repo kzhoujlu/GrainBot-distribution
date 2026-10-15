@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "release_tag": "2026.10.15.installer11",
+  "files": {
+    "installer.json": "f1f0df5d3ab1d83ee3c904eacbf8902d3bd0e468d949c9ff76d798601b4a477e",
+    "README.md": "8ab626825394ab9021b952e11ac8075dffb21acf822b3ae188139d4cf5a04438"
+  }
+}
