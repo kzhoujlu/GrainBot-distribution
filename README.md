@@ -4,13 +4,13 @@
 
 [Windows x64 单个 EXE 安装器（installer12，约 1.4 MB）](https://github.com/kzhoujlu/GrainBot-distribution/releases/download/2026.10.27.installer12/GrainBot-Setup-Windows-x64-2026.10.27.installer12.exe)
 
-当前应用为 [2026.10.27.post1](https://github.com/kzhoujlu/GrainBot-distribution/releases/tag/2026.10.27.post1)，启动中心版本 0.2.16.1。本版修复面积分布拟合不收敛导致整次分析失败：保留分割、晶粒测量、角度、CSV 和统计图，失败的拟合参数显示为不可用并说明原因。
+当前应用为 [2026.10.27.post2](https://github.com/kzhoujlu/GrainBot-distribution/releases/tag/2026.10.27.post2)，启动中心版本继续为 0.2.16.1。本版修正 GrainBot UNet 推理：BatchNorm 使用当前图像统计量，关闭随机 Dropout。模型权重、输入预处理、侵蚀核和次数、后续测量流程保持不变。
 
-已有用户在启动中心“版本与更新”检查并更新应用，然后重启 Studio。也可运行上述 EXE，选择原安装目录和原 CPU/CUDA 配置。模型权重、科学依赖、数据和设置保留，未变化的软件包继续跳过。
+已有用户：在启动中心“版本与更新 → 应用软件”检查更新，更新完成后重启 Studio，再用相同图像重新分析。旧结果不会自动重算。上一版 [2026.10.27.post1](https://github.com/kzhoujlu/GrainBot-distribution/releases/tag/2026.10.27.post1) 完整保留，已验证应用升级与回滚均保留测试账号。
 
-本次前端已重新构建；维护核心 0.2.16 与 MatMorph post2 原样复用。没有重新训练模型或修改后处理，科学有效性与结构保留仍由用户人工判断。
+安装器 installer12 仍可安装，其初始应用为 post1；新安装用户安装后可通过上述入口更新至本版。选择原安装目录和相同 CPU/CUDA 配置可保留原有数据。此次没有重发安装器或上传便携 ZIP。
 
-安装器 Release 仅一个 EXE；应用 Release 为三个 wheel 和一个前端 ZIP。清单、签名、说明保存在 Git。此前本地交付的便携 ZIP 未上传。
+前端复用 post1 构建产物，本次未重新编译；维护核心 0.2.16 原样复用。应用 Release 仅三个 wheel 和一个前端 ZIP，清单和签名保存在 Git。四个文件均已验证可匿名下载，SHA256 一致。实际晶界效果由用户检查，不以区域数量增加作为准确性结论。
 
 ## 推荐模型
 
