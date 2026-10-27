@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "release_tag": "2026.10.27.installer12",
+  "files": {
+    "installer.json": "0adab8fa755e5470e6f36791a73ef9d4c31675f4195ed1e0a2eaee1377d4bdf6",
+    "README.md": "6e6d08ed4468686b90f2f1fcb51cc60b036657fee270dfed9a18629dfb6d1402"
+  }
+}
