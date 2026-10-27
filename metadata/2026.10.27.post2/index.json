@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "release_tag": "2026.10.27.post2",
+  "type": "application",
+  "files": {
+    "application.json": "babaa6784172f774a52c146ce253e2676e0e9badd3e9963a2f28287114cc8880",
+    "application.sig": "7b240d23ef0007495f983ca3e3466c2f629db4360a05ce1e31d035d86eb6ffee"
+  },
+  "assets": [
+    {
+      "role": "maintenance",
+      "name": "grainbot_maintenance-0.2.16-py3-none-any.whl",
+      "bytes": 85515,
+      "sha256": "d006699626de12728c80287da56fcd918dd70463245239c3ac8963ade1ca320d",
+      "download_url": "https://github.com/kzhoujlu/GrainBot-distribution/releases/download/2026.10.27.post2/grainbot_maintenance-0.2.16-py3-none-any.whl",
+      "namespace": "grainbot_maintenance"
+    },
+    {
+      "role": "backend",
+      "name": "grainbot_studio_app-2026.10.27.post2-py3-none-any.whl",
+      "bytes": 237231,
+      "sha256": "b0657fca2cc1d2d1f43b75ac1ac19342a0f03443c4e83791e72071608e2907d4",
+      "download_url": "https://github.com/kzhoujlu/GrainBot-distribution/releases/download/2026.10.27.post2/grainbot_studio_app-2026.10.27.post2-py3-none-any.whl",
+      "namespace": "grainbot_studio"
+    },
+    {
+      "role": "matmorph",
+      "name": "matmorph-2026.10.27.post2-py3-none-any.whl",
+      "bytes": 195710,
+      "sha256": "8dac3c321aa3fc8cb937ab82a7e9b88ffb72b900129c9c7636e7fa1b08bc2559",
+      "download_url": "https://github.com/kzhoujlu/GrainBot-distribution/releases/download/2026.10.27.post2/matmorph-2026.10.27.post2-py3-none-any.whl",
+      "namespace": "matmorph"
+    },
+    {
+      "role": "frontend",
+      "name": "grainbot_frontend-2026.10.27.post1.zip",
+      "bytes": 1258021,
+      "sha256": "d7a79b29ad13fa596a28bdd6916647d6f3f55919bfb8a740b5cfe07bbcfd41b9",
+      "download_url": "https://github.com/kzhoujlu/GrainBot-distribution/releases/download/2026.10.27.post2/grainbot_frontend-2026.10.27.post1.zip"
+    }
+  ]
+}
