@@ -2,13 +2,15 @@
 
 ## 安装与更新
 
-[Windows x64 单个 EXE 安装器](https://github.com/kzhoujlu/GrainBot-distribution/releases/download/2026.10.15.installer11/GrainBot-Setup-Windows-x64-2026.10.15.installer11.exe)
+[Windows x64 单个 EXE 安装器（installer12，约 1.4 MB）](https://github.com/kzhoujlu/GrainBot-distribution/releases/download/2026.10.27.installer12/GrainBot-Setup-Windows-x64-2026.10.27.installer12.exe)
 
-已有新版启动中心请在“版本与更新”检查应用及启动中心更新。首次安装建议 CPU；旧 installer4 首次升级需关闭旧启动中心和网站服务，运行本 EXE 并选择原目录、原 CPU/CUDA 配置。现有模型、数据、设置和未变化的依赖会保留。
+当前应用为 [2026.10.27.post1](https://github.com/kzhoujlu/GrainBot-distribution/releases/tag/2026.10.27.post1)，启动中心版本 0.2.16.1。本版修复面积分布拟合不收敛导致整次分析失败：保留分割、晶粒测量、角度、CSV 和统计图，失败的拟合参数显示为不可用并说明原因。
 
-[Studio post12 应用四件套](https://github.com/kzhoujlu/GrainBot-distribution/releases/tag/2026.10.15.post12)：三个 wheel、一个前端 ZIP，维护核心 0.2.16。前端原样复用 post11 ZIP，未重新编译；MatMorph post2 不变。
+已有用户在启动中心“版本与更新”检查并更新应用，然后重启 Studio。也可运行上述 EXE，选择原安装目录和原 CPU/CUDA 配置。模型权重、科学依赖、数据和设置保留，未变化的软件包继续跳过。
 
-本版修复 YOLO 缺失依赖及 OpenCV 发行不匹配造成的安装／更新失败。已有安装先更新启动中心，再更新应用并重启服务。网页模型库支持“检查更新”检查当前分类全部模型，并可多选批量更新。自研／官方来源已校正，模型权重下载与训练数据链接分开展示。更新应用及启动中心后重启网页服务。
+本次前端已重新构建；维护核心 0.2.16 与 MatMorph post2 原样复用。没有重新训练模型或修改后处理，科学有效性与结构保留仍由用户人工判断。
+
+安装器 Release 仅一个 EXE；应用 Release 为三个 wheel 和一个前端 ZIP。清单、签名、说明保存在 Git。此前本地交付的便携 ZIP 未上传。
 
 ## 推荐模型
 
